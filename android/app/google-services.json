@@ -1,0 +1,70 @@
+{
+  "project_info": {
+    "project_number": "594393075069",
+    "project_id": "urbanmalta-fe8a7",
+    "storage_bucket": "urbanmalta-fe8a7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:594393075069:android:a2c0372349e37f223cd014",
+        "android_client_info": {
+          "package_name": "com.urbanmalta"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "594393075069-2ej872575jkl6gi5ih59lgvq1ik0feei.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.urbanmalta",
+            "certificate_hash": "2b27fb6ba13d38bc4a58f5d290d0f22553810e8b"
+          }
+        },
+        {
+          "client_id": "594393075069-clro2dma1n5dqj2psegu48sq2gpg6cuq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.urbanmalta",
+            "certificate_hash": "43461254e587685cc40063f5871c04bf0abb0c64"
+          }
+        },
+        {
+          "client_id": "594393075069-v0qmdohk4shiq22en4g8j4deahfuceh5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.urbanmalta",
+            "certificate_hash": "3fb48fc0e4ae604165b63dc9799502d64b7252a5"
+          }
+        },
+        {
+          "client_id": "594393075069-ps3psamv2gir8dqnr1dp9n6rg4hs7lsa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAyNXBFhfcoeCOfDAYAIAvlZ_DaECvPFFk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "594393075069-g4qigggl683n2htsids52ocjo7icg7ld.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "594393075069-6hanjm0ritir7762tctivcppnu3af7mc.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.urbanmalta.app"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
