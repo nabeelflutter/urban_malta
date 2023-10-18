@@ -55,7 +55,7 @@ android {
         minSdkVersion 25
         // min sdk can be decreased
         compileSdkVersion 33
-        targetSdkVersion 28
+        targetSdkVersion 33
         versionCode flutterVersionCode.toInteger()
         versionName flutterVersionName
         multiDexEnabled true
@@ -65,13 +65,16 @@ android {
        release {
            keyAlias keystoreProperties['keyAlias']
            keyPassword keystoreProperties['keyPassword']
-           storeFile keystoreProperties['storeFile'] ? file(keystoreProperties['storeFile']) : null
+          // storeFile keystoreProperties['storeFile'] ? file(keystoreProperties['storeFile']) : null // original code
+           //storeFile file("key.jks") ? file("key.jks") : null //new solution for some customers
            storePassword keystoreProperties['storePassword']
        }
    }
    buildTypes {
        release {
-           signingConfig signingConfigs.release
+           // TODO: Add your own signing config for the release build.
+           // Signing with the debug keys for now, so `flutter run --release` works.
+          // signingConfig signingConfigs.release
        }
    }
 }
